@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  public mostrarTitulo(){
+    console.log("click");
+    // Usamos jQuery con normalidad
+    $(".title").slideToggle();
+  }
+
 }
